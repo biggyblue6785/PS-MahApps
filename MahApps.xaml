@@ -1,0 +1,22 @@
+<Controls:MetroWindow
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+	xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+	Title="A cool application."
+	Width="620" Height="300">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Cobalt.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+    </Window.Resources>
+
+	<Button x:Name="LoginBtn" Content="Open external input modal" />
+</Controls:MetroWindow>
